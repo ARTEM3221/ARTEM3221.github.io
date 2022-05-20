@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Груші</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="header__tomato">
+    <div class="container">
+      <div class="header__top">
+        <a class="header__logo" href="#"><img class="logo__img" src="images/logo.svg"></a>
+        <div class="header__right">
+          <div class="header__search">
+            <input class="search__input" type="text" placeholder="Search">
+          </div>
+          <div class="header__menu">
+            <div class="menu__btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+            <ul class="header__menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Company Profile</a></li>
+            <li><a href="tomatoall.html">Products</a></li>
+            <li><a href="#">Serices</a></li>
+            <li><a href="#">R&D</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="tomatoall__img" src="images/tomatoall.jpg">
+  <section class="tomatoall__text">
+    <div class="container">
+      <h1 class="tomatoall__title">Agridera Fresh Market Tomato Hybrids</h1>
+      <img class="tomatoall__img-xxx" src="images/xxx.svg">
+      <p class="tomatoall__dscr">Agridera aims to be one of the world's leading companies in the breeding, production, and marketing of tomato seeds.<b>We invest intensively in research and development to provide solutions to growers and consumers in numerous countries around the world.</b>
+      In particular, we breed improved disease-resistant cultivars adapted to different markets globally.</p>
+      <p class="tomatoall__dscr">Currently, emphasis is placed on combining Tomato Yellow Leaf Curl Virus (TYLCV) and Tomato Spotted Wilt Virus (TSWV) resistances with other soil borne diseases into superior tomato breeding lines and hybrids. Moreover, comprehensive efforts are being undertaken to develop varieties resistance to TBRFV virus (Tomato Brown Rugose Fruit Virus).</p>
+      <p class="tomatoall__dscr">In terms of horticultural traits, breeding is for earliness, different fruit sizes, firmness, red fruit color, flavor, crack resistance, shelf life, and high/low temperature fruit set. Combinations of quality features and disease resistance are sought in a variety of types, namely round and elongated shapes.</p>
+      <div class="tomatoall__dscr2">
+        <img class="tomatoall__line" src="images/tomatoall__line1.svg">
+        <p class="tomatoall__line-text">Agirdera Tomato breeding programs are focusing on three main segments: Greenhouse Indeterminate Tomatoes, Open-field Indeterminate Tomatoes, and Bush Type Open-field Tomatoes.</p>
+      </div>
+    </div>
+  </section>
+  <section class="rectangle">
+    <div class="container">
+      <div class="rectangle__inner">
+        <div class="box1">
+          <h2 class="rectangle__title">Greenhouse Tomato Breeding Program</h2>
+          <img class="rectangle__img" src="images/rectangle__line.svg">
+          <p class="rectangle__text"><b>This breeding is aimed for the Spanish and Turkish markets.</b> For single and cluster picks, round fruit shape and resistances of TYLCV, TSWV, Nematodes and FORL (Fusarium oxysporum f.sp. radicis-lycopersici). Some hybrids may include more resistances, such as Cladosporium and Leveillula Taurica (Lv).</p>
+        </div>
+        <div class="box2">
+          <h2 class="rectangle__title">Open-field Indeterminate</br>Tomatoes</h2>
+          <img class="rectangle__img" src="images/rectangle__line.svg">
+          <p class="rectangle__text"><b>This breeding is for Brazilian, Moroccan, and Turkish markets.</b> The main focus is on large round shape fruits (200 grams plus); and resistances of TYLCV, TSWV, Nematodes and FORL. In the near future, F3 (Fusarium oxysporum f.sp. lycopersici) will be included as basic resistance in our cultivars.</p>
+        </div>
+        <div class="box3">
+          <h2 class="rectangle__title">Open-field Bush Type</br>Tomatoes</h2>
+          <img class="rectangle__img" src="images/rectangle__line.svg">
+          <p class="rectangle__text"><b>This breeding is for Mediterranean markets.</b> We breed round and elongated shapes, standard sizes (140- 180 grams), and beef sizes (min. 180 grams up to 300 grams and more). We combine the resistances of TYLCV, TSWV and Nematodes as basic resistances in our hybrids. However, some hybrids may include more resistances, such as Cladosporium and Leveillula Taurica (Lv).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+  <div class="tomatoall__dscr3">
+    <img class="tomatoall__dscr3-line" src="images/tomatoall__line2.svg">
+    <p class="tomatoall__dscr3-text"><b>Agridera operates through international and local distributers around the world.</b></p>
+  </div>
+  </div>
+
+<section class="vagetable">
+    <div class="container">
+      <div class="line1" id="article">
+        <div class="tag" v-if="products" v-for="p in products">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" :src="'../ARTEM3221.github.io/images/'+p.image"></a>
+          <h3 class="tag__title">{{p.title}}</h3>
+          <p class="tag__text">{{p.short_text}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--<section class="vagetable">
+    <div class="container">
+
+      <div class="line1">
+        <div class="tag">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1000.jpg"></a>
+          <h3 class="tag__title">TAG 1000 (TAG 853)</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+        <div class="tag">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1001.jpg"></a>
+          <h3 class="tag__title">TAG 1001 (TAG 855)</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+        <div class="tag">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1002.jpg"></a>
+          <h3 class="tag__title">TAG 1002 (TAG 809)</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+      </div>
+
+      <div class="line2">
+        <div class="tag">
+         <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1003.jpg"></a>
+          <h3 class="tag__title">TAG 1003 (TAG 834 )</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+        <div class="tag">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1004.jpg"></a>
+          <h3 class="tag__title">TAG 1004 (TAG 848)</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+        <div class="tag">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1005.jpg"></a>
+          <h3 class="tag__title">TAG 1005 (TAG 800)</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+      </div>
+
+      <div class="line3">
+        <div class="tag">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1006.jpg"></a>
+          <h3 class="tag__title">TAG 1006 (TAG 898)</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+        <div class="tag">
+          <a class="tag__link" href="tomatoone.html"><img class="tag__img" src="images/tag1007.jpg"></a>
+          <h3 class="tag__title">TAG 1007 (TAG 816)</h3>
+          <p class="tag__text">Tomato Determinate Red Standard Round</p>
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <footer class="footer">
+    <div class="container">
+    <div class="footer__inner">
+      <div class="footer__left">
+      <a class="footer__link" href="#">PROFILE</a>
+      <a class="footer__link" href="#">MANAGEMENT</a>
+      <a class="footer__link" href="#">PRODUCTS</a>
+      <a class="footer__link" href="#">R&D</a>
+      <a class="footer__link" href="#">LINKS</a>
+      <a class="footer__link" href="#">SITEMAP</a>
+      <a class="footer__link" href="contact.html">CONTACT</a>
+      </div>
+      <div class="footer__right">
+        <ul class="list">
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="images/in.svg">
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="images/Instagram.svg">
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="images/YouTube.svg">
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="images/Twitter.svg">
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="images/Facebook.svg">
+            </a>
+          </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+  </footer>
+  <div class="lic">
+    <div class="container">
+    <p class="lic__text">AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <script src="js/mainvue.js"></script>
+<body>
+</html>
