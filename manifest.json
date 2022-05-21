@@ -3,7 +3,7 @@
 	"short_name": "Sweaty",
 	"start_url": "/index.html",
 	"scope": ".",
-	"display": "standlone",
+	"display": "standalone",
 	"background_color": "#fff",
 	"theme_color": "#3F51B5",
 	"description": "Keep running until you`re super sweaty!",
