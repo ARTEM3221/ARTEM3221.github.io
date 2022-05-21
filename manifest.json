@@ -10,14 +10,17 @@
 	"dir": "ltr",
 	"lang": "en-US",
 	"orientation": "portrait-primary",
-	"icons": [{
+	"icons": [
+		{
 				"src": "/images/icons/app-icon-48x48.png",
 				"type": "images/png",
 				"size": "48x48",
 			},
+
 			{
 				"src": "/images/icons/app-icon-96x96.png",
 				"type": "images/png",
 				"size": "96x96",
-			}]
+			}
+		]
 }
