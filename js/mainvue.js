@@ -6,7 +6,8 @@ var app = new Vue ({
 		{id:2,title:"Bryansk beauty", short_text:'A typical late summer variety, which is a medium-sized tree, weakly growing, with a crown in the form of a rarefied ball with compact, brownish-brown, cranked, bare and rounded shoots, the ends of which are directed upwards.', image:'2.jpg', desc: "Full desc"},
 		{id:3,title:"Same age", short_text:'A typical late summer variety, which is a medium-sized tree with a crown in the form of a rounded compact pyramid of medium density.', image:'3.jpg', desc: "Full desc"},
 		{id:4,title:"Banana", short_text:'A typical summer variety, which is a medium-sized tree with a drooping, medium-thickened crown and curved, brown, bare and rounded shoots.', image:'4.jpg', desc: "Full desc"},
-		{id:5,title:"Skorospelka from Michurinsk", short_text:'A typical early summer variety, which is a medium-sized tree with a crown in the form of a rounded pyramid of medium density.', image:'5.jpg', desc: "Full desc"}]
+		{id:5,title:"Skorospelka from Michurinsk", short_text:'A typical early summer variety, which is a medium-sized tree with a crown in the form of a rounded pyramid of medium density.', image:'5.jpg', desc: "Full desc"}],
+		product:[]
 	},
 
 

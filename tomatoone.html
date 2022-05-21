@@ -48,7 +48,17 @@
     </div>
   </div>
 
-  
+  <section class="pear">
+    <div class="container">
+      <div class="pear__inner" id="article">
+        <div class="pear__block" v-if="product" v-for="a in product">
+          <a class="pear__link" href="tomatoone.html"><img class="tag__img" :src="'https://raw.githubusercontent.com/ARTEM3221/ARTEM3221.github.io/main/images/'+p.image"></a>
+          <h3 class="pear__title">{{a.title}}</h3>
+          <p class="pear__text">{{a.short_text}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!--<div class="background">
   <div class="return">
