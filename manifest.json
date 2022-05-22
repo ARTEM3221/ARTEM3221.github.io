@@ -10,11 +10,5 @@
 	"dir": "ltr",
 	"lang": "en-US",
 	"orientation": "portrait-primary",
-	"icons": [
-		{
-				"src": "images/icons/app-icon-48x48.png",
-				"type": "images/png",
-				"size": "48x48"
-			}
-		]
+	
 }
